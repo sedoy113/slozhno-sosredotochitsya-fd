@@ -19,7 +19,8 @@
 	display: flex;
 	align-items: center;
 	gap: 10px;
-
+	inset-block-start: 10px;
+	inset-inline-end: 20px;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 25px;
