@@ -212,6 +212,10 @@
 	line-height: 23.4px;
 }
 
+.section__title--color {
+	color: var(--theme-dark-text-color, #000028);
+}
+
 @media (width>= 768px) {
 	.section__title--width {
 		max-inline-size: 236px;
@@ -266,4 +270,20 @@
 	font-weight: 400;
 	line-height: 23.4px;
 	color: var(--theme-dark-article-text-color, #f1b2ce);
+}
+
+.gallery {
+	display: grid;
+	gap: 10px;
+	grid-auto-flow: dense;
+}
+
+@media (width>= 768px) {
+	.gallery {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.gallery__image {
+	width: 100%;
 }
