@@ -10,9 +10,10 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 	--theme-dark-backgound-image: url("../images/cover-image-dark.png");
-	--theme-dark-bacground-color: #000028;
+	--theme-dark-bacground-color: var(--color-dark-blue, #000028);
 	--theme-dark-title-color: var(--color-pure-magenta, #db00ff);
-	--theme-dark-text-color: var(--color-dark-blue, #000028;);
+	--theme-dark-text-color: var(--color-dark-blue, #000028);
+	--theme-dark-article-text-color: var(--color-soft-pink, #f1b2ce);
 	--record-color: var(--color-pure-pink, #ff0070);
 	--record-color-dark: var(--color-pure-pink-darken, #ff007040);
 	--decorated-zone-color: var(--color-pure-pink, #ff0070);
