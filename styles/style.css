@@ -352,7 +352,7 @@ justify-self .header__theme-menu-list {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	/* inline-size: 100%; */
+	inline-size: 100%;
 	min-block-size: 668px;
 	block-size: 100vh;
 }
