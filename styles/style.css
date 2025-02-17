@@ -71,7 +71,7 @@
 	grid-template-rows: 1fr min-content 1fr;
 	gap: 10px;
 	min-block-size: 668px;
-	/* block-size: 100vh; */
+	block-size: 100vh;
 	padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
@@ -353,7 +353,7 @@ justify-self .header__theme-menu-list {
 	position: relative;
 	/* inline-size: 100%; */
 	min-block-size: 668px;
-	/* block-size: 100vh; */
+	block-size: 100vh;
 }
 
 .footer__title {
