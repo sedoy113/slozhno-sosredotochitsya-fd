@@ -138,11 +138,7 @@ justify-self .header__theme-menu-list {
 
 .header__title {
 	align-self: center;
-	color: var(--color--big-title, #db00ff);
 	text-shadow: 4px 4px 0 var(--color-shadow-text, #ff0070);
-	font-size: var(--font-size-title);
-	font-weight: 700;
-	line-height: 95.7px;
 }
 
 @media (width>= 768px) {
