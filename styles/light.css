@@ -9,11 +9,54 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-	--theme-light-backgound-image: url("../images/cover-image-light.png");
+
+	--main-backgound-image: url("../images/cover-image-light.png");
+	--color-text-button: var(--color-dark-grayish, #353430);
+	--color-title-text: var(--color-dark-grayish, #353430);
+	--color-text-header: var(--color-dark-grayish, #353430);
+	--color-text-section: var(--color-dark-grayish, #353430);
+	--color-decor: var(--color-dark-grayish, #353430);
+	--color--big-title: var(--color-pale-pink, #ffc2e6);
+	--backgound-color-text: var(--color-light-pink, #ff8dcb);
+	--color-shadow-text: var(--color-light-pink, #ff8dcb);
+
+	--color-hover-button: var(--color-pure-pink-dark, #ff007040);
+	--color-hover-button: var(--color-dark-opacity, rgba(50, 49, 45, 0.4));
 }
 
 .theme-light .page {
 	/* Вам также нужно будет написать ряд подобных селекторов */
-	background-image: var(--theme-light-backgound-image),
-		url("../images/cover-image-light.png");
+	--main-backgound-image: url("../images/cover-image-light.png");
+	--color-text-button: var(--color-dark-grayish, #353430);
+	--color-title-text: var(--color-dark-grayish, #353430);
+	--color-text-header: var(--color-dark-grayish, #353430);
+	--color-text-section: var(--color-dark-grayish, #353430);
+	--color-decor: var(--color-dark-grayish, #353430);
+	--color--big-title: var(--color-pale-pink, #ffc2e6);
+	--backgound-color-text: var(--color-light-pink, #ff8dcb);
+	--color-shadow-text: var(--color-light-pink, #ff8dcb);
+
+	--color-hover-button: var(--color-pure-pink-dark, #ff007040);
+	--color-hover-button: var(--color-dark-opacity, rgba(50, 49, 45, 0.4));
+}
+
+.theme-light .page .record {
+	display: none;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--main-backgound-image: url("../images/cover-image-light.png");
+		--color-text-button: var(--color-dark-grayish, #353430);
+		--color-title-text: var(--color-dark-grayish, #353430);
+		--color-text-header: var(--color-dark-grayish, #353430);
+		--color-text-section: var(--color-dark-grayish, #353430);
+		--color-decor: var(--color-dark-grayish, #353430);
+		--color--big-title: var(--color-pale-pink, #ffc2e6);
+		--backgound-color-text: var(--color-light-pink, #ff8dcb);
+		--color-shadow-text: var(--color-light-pink, #ff8dcb);
+
+		--color-hover-button: var(--color-pure-pink-dark, #ff007040);
+		--color-hover-button: var(--color-dark-opacity, rgba(50, 49, 45, 0.4));
+	}
 }
