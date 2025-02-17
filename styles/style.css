@@ -253,6 +253,12 @@ justify-self .header__theme-menu-list {
 }
 
 @media (width>= 768px) {
+	.section--chenge-margin {
+		gap: 20px;
+	}
+}
+
+@media (width>= 768px) {
 	.section--grid {
 		grid-template-columns: 1fr 2fr;
 	}
@@ -334,6 +340,7 @@ justify-self .header__theme-menu-list {
 @media (width>= 768px) {
 	.gallery {
 		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
 	}
 
 	.gallery__item--span {
