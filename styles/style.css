@@ -66,6 +66,13 @@
 	text-decoration: underline var(--color-text-section, #f1b2ce);
 }
 
+.main-title {
+	color: var(--color--big-title, #db00ff);
+	font-size: var(--font-size-title);
+	font-weight: 700;
+	line-height: 95.7px;
+}
+
 .header {
 	position: relative;
 	display: grid;
@@ -153,6 +160,7 @@ justify-self .header__theme-menu-list {
 @media (width>= 1024px) {
 	.header__title {
 		margin-left: -15px;
+		line-height: 129.33px;
 	}
 }
 
@@ -224,13 +232,6 @@ justify-self .header__theme-menu-list {
 	padding-block-start: 40px;
 	padding-block-end: 40px;
 	row-gap: 50px;
-}
-
-.main-title {
-	color: var(--color--big-title, #db00ff);
-	font-size: var(--font-size-title);
-	font-weight: 700;
-	line-height: 95.7px;
 }
 
 @media (width>= 768px) {
@@ -359,4 +360,11 @@ justify-self .header__theme-menu-list {
 
 .footer__title {
 	text-shadow: 2px 2px 0 var(--color-shadow-text, #ff0070);
+}
+
+@media (width>= 768px) {
+	.footer__title {
+		font-size: var(--font-size-big-title);
+		line-height: 99px;
+	}
 }
