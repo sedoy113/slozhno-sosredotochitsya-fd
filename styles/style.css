@@ -9,6 +9,7 @@
 		--main-backgound-image,
 		url("../images/cover-image-dark.png")
 	);
+	background-color: var(--background-color, #000028);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
