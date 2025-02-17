@@ -59,4 +59,8 @@
 		--color-hover-button: var(--color-pure-pink-dark, #ff007040);
 		--color-hover-button: var(--color-dark-opacity, rgba(50, 49, 45, 0.4));
 	}
+
+	.page .record {
+		display: none;
+	}
 }
