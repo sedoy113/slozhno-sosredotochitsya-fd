@@ -228,6 +228,13 @@ justify-self .header__theme-menu-list {
 	row-gap: 50px;
 }
 
+.main-title {
+	color: var(--color--big-title, #db00ff);
+	font-size: var(--font-size-title);
+	font-weight: 700;
+	line-height: 95.7px;
+}
+
 @media (width>= 768px) {
 	.main {
 		row-gap: 80px;
@@ -352,10 +359,5 @@ justify-self .header__theme-menu-list {
 }
 
 .footer__title {
-	font-weight: 700;
-	font-size: 116px;
-	line-height: 95.7px;
-	color: var(--color--big-title, #db00ff);
 	text-shadow: 2px 2px 0 var(--color-shadow-text, #ff0070);
-	font-size: var(--font-size-big-title);
 }
