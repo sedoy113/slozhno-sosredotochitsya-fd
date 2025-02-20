@@ -41,5 +41,5 @@
 }
 
 .theme-dark .page .record {
-	display: block;
+	display: flex;
 }
