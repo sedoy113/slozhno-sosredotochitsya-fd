@@ -77,7 +77,7 @@
 	position: relative;
 	display: grid;
 	grid-template-rows: 1fr min-content 1fr;
-	gap: 10px;
+	/* gap: 10px; */
 	min-block-size: 668px;
 	block-size: 100vh;
 	padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
@@ -86,7 +86,7 @@
 .header__theme-menu {
 	justify-self: end;
 	align-self: center;
-	padding-top: 10px;
+	/* padding-top: 10px; */
 }
 
 .header__theme-menu-list {
@@ -232,12 +232,13 @@ justify-self .header__theme-menu-list {
 	padding-block-start: 40px;
 	padding-block-end: 40px;
 	row-gap: 50px;
-	padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
 @media (width>= 768px) {
 	.main {
 		row-gap: 80px;
+		padding-inline-start: 20px;
+		padding-inline-end: 20px;
 		padding-block-start: 60px;
 		padding-block-end: 60px;
 	}
