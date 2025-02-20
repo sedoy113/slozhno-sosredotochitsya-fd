@@ -11,7 +11,7 @@
   */
 
 	--main-backgound-image: url("../images/cover-image-dark.png");
-	--background-color: var(--background-color, #000028);
+	--background-color: var(--color-dark-blue, #000028);
 	--color-text-button: var(--color-pure-pink, #ff0070);
 	--backgound-color-text: var(--color-pure-pink, #ff0070);
 	--color-shadow-text: var(--color-pure-pink, #ff0070);

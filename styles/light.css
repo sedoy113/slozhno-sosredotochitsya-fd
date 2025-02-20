@@ -11,6 +11,7 @@
   */
 
 	--main-backgound-image: url("../images/cover-image-light.png");
+	--background-color: var(--color-white-pale-pink, #ffc2e6);
 	--color-text-button: var(--color-dark-grayish, #353430);
 	--color-title-text: var(--color-dark-grayish, #353430);
 	--color-text-header: var(--color-dark-grayish, #353430);
@@ -27,6 +28,7 @@
 .theme-light .page {
 	/* Вам также нужно будет написать ряд подобных селекторов */
 	--main-backgound-image: url("../images/cover-image-light.png");
+	--background-color: var(--color-white-pale-pink, #ffc2e6);
 	--color-text-button: var(--color-dark-grayish, #353430);
 	--color-title-text: var(--color-dark-grayish, #353430);
 	--color-text-header: var(--color-dark-grayish, #353430);
@@ -47,6 +49,7 @@
 @media (prefers-color-scheme: light) {
 	:root {
 		--main-backgound-image: url("../images/cover-image-light.png");
+		--background-color: var(--color-white-pale-pink, #ffc2e6);
 		--color-text-button: var(--color-dark-grayish, #353430);
 		--color-title-text: var(--color-dark-grayish, #353430);
 		--color-text-header: var(--color-dark-grayish, #353430);
