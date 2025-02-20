@@ -67,7 +67,7 @@
 }
 
 .main-title {
-	color: var(--color--big-title, #db00ff);
+	color: var(--color-big-title, #db00ff);
 	font-size: var(--font-size-title);
 	font-weight: 700;
 	line-height: 95.7px;

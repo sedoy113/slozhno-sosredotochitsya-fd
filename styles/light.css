@@ -16,7 +16,7 @@
 	--color-text-header: var(--color-dark-grayish, #353430);
 	--color-text-section: var(--color-dark-grayish, #353430);
 	--color-decor: var(--color-dark-grayish, #353430);
-	--color--big-title: var(--color-pale-pink, #ffc2e6);
+	--color-big-title: var(--color-pale-pink, #ffc2e6);
 	--backgound-color-text: var(--color-light-pink, #ff8dcb);
 	--color-shadow-text: var(--color-light-pink, #ff8dcb);
 
@@ -32,7 +32,7 @@
 	--color-text-header: var(--color-dark-grayish, #353430);
 	--color-text-section: var(--color-dark-grayish, #353430);
 	--color-decor: var(--color-dark-grayish, #353430);
-	--color--big-title: var(--color-pale-pink, #ffc2e6);
+	--color-big-title: var(--color-pale-pink, #ffc2e6);
 	--backgound-color-text: var(--color-light-pink, #ff8dcb);
 	--color-shadow-text: var(--color-light-pink, #ff8dcb);
 
@@ -52,7 +52,7 @@
 		--color-text-header: var(--color-dark-grayish, #353430);
 		--color-text-section: var(--color-dark-grayish, #353430);
 		--color-decor: var(--color-dark-grayish, #353430);
-		--color--big-title: var(--color-pale-pink, #ffc2e6);
+		--color-big-title: var(--color-pale-pink, #ffc2e6);
 		--backgound-color-text: var(--color-light-pink, #ff8dcb);
 		--color-shadow-text: var(--color-light-pink, #ff8dcb);
 
