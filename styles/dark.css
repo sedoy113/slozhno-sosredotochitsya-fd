@@ -11,9 +11,9 @@
   */
 
 	--main-backgound-image: url("../images/cover-image-dark.png");
+	--background-color: var(--background-color, #000028);
 	--color-text-button: var(--color-pure-pink, #ff0070);
 	--backgound-color-text: var(--color-pure-pink, #ff0070);
-	--background-color: var(--background-color, #000028);
 	--color-shadow-text: var(--color-pure-pink, #ff0070);
 	--color-title-text: var(--color-pure-pink, #ff0070);
 	--color--big-title: var(--color-pure-magenta, #db00ff);
@@ -27,9 +27,9 @@
 
 .theme-dark .page {
 	--main-backgound-image: url("../images/cover-image-dark.png");
+	--background-color: var(--background-color, #000028);
 	--color-text-button: var(--color-pure-pink, #ff0070);
 	--backgound-color-text: var(--color-pure-pink, #ff0070);
-	--background-color: var(--background-color, #000028);
 	--color-shadow-text: var(--color-pure-pink, #ff0070);
 	--color-title-text: var(--color-pure-pink, #ff0070);
 	--color--big-title: var(--color-pure-magenta, #db00ff);
@@ -38,21 +38,4 @@
 	--color-text-section: var(--color-soft-pink, #f1b2ce);
 	--color-decor: var(--color-pure-pink, #ff0070);
 	--color-hover-button: var(--color-pure-pink-darken, #ff007040);
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--main-backgound-image: url("../images/cover-image-dark.png");
-		--color-text-button: var(--color-pure-pink, #ff0070);
-		--backgound-color-text: var(--color-pure-pink, #ff0070);
-		--background-color: var(--background-color, #000028);
-		--color-shadow-text: var(--color-pure-pink, #ff0070);
-		--color-title-text: var(--color-pure-pink, #ff0070);
-		--color--big-title: var(--color-pure-magenta, #db00ff);
-		--color-text-header: var(--color-dark-blue, #000028);
-		--color-sub-title-text: var(--color-dark-blue, #000028);
-		--color-text-section: var(--color-soft-pink, #f1b2ce);
-		--color-decor: var(--color-pure-pink, #ff0070);
-		--color-hover-button: var(--color-pure-pink-darken, #ff007040);
-	}
 }
