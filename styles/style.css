@@ -44,7 +44,7 @@
 	block-size: 9px;
 	border-radius: 50%;
 	background-color: var(--color-decor, #ff0070);
-	box-shadow: 0 0 4px 6px var(--color-pure-pink-dark, #ff007040);
+	box-shadow: 0 0 4px 2px var(--color-pure-pink-dark, #ff007040);
 }
 
 .title-decor {
@@ -330,6 +330,10 @@ justify-self .header__theme-menu-list {
 	font-weight: 400;
 	line-height: 23.4px;
 	color: var(--color-text-section, #f1b2ce);
+}
+
+.card-text__text:not(:last-child) {
+	margin-block-end: 10px;
 }
 
 .gallery {
